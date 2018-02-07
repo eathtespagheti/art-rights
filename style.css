@@ -1,0 +1,210 @@
+/* Custom Bootstrap Navbar colors */
+
+.navbar .navbar-brand {
+  color : #bababa;
+}
+
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:hover {
+  color : #db9922;
+}
+
+.navbar .navbar-text {
+  color : #bababa;
+}
+
+.navbar .navbar-text a {
+  color : #db9922;
+}
+
+.navbar .navbar-text a:focus,
+.navbar .navbar-text a:hover {
+  color : #db9922;
+}
+
+.navbar .navbar-nav .nav-link {
+  margin        : 0 0.25em;
+  color         : #bababa;
+  border-radius : .25rem;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):focus,
+.navbar .navbar-nav .nav-link:not(.disabled):hover {
+  color : #db9922;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+  border-color : #ffffff;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color : #bababa;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+  color            : #db9922;
+  background-color : #ffffff;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color : #ffffff;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link:hover {
+  color            : #db9922;
+  background-color : #ffffff;
+}
+
+.navbar .navbar-toggle {
+  border-color : #ffffff;
+}
+
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
+  background-color : #ffffff;
+}
+
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color : #bababa;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color : #bababa;
+}
+
+.navbar .navbar-link {
+  color : #bababa;
+}
+
+.navbar .navbar-link:hover {
+  color : #db9922;
+}
+
+@media
+  (max-width : 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color : #bababa;
+  }
+
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover {
+    color : #db9922;
+  }
+
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color            : #db9922;
+    background-color : #ffffff;
+  }
+}
+
+@media
+  (max-width : 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color : #bababa;
+  }
+
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover {
+    color : #db9922;
+  }
+
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color            : #db9922;
+    background-color : #ffffff;
+  }
+}
+
+@media
+  (max-width : 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color : #bababa;
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover {
+    color : #db9922;
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color            : #db9922;
+    background-color : #ffffff;
+  }
+}
+
+@media
+  (max-width : 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color : #bababa;
+  }
+
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover {
+    color : #db9922;
+  }
+
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color            : #db9922;
+    background-color : #ffffff;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color : #bababa;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover {
+  color : #db9922;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color            : #db9922;
+  background-color : #ffffff;
+}
+
+/* END Custom Boostrap */
+
+body {
+  background-color: black;
+  color       : #bababa;
+  font-family : 'Poppins',
+                sans-serif;
+}
+
+.dropdown-toggle::after {
+  display : none;
+}
+
+.notice-show {
+  position : absolute;
+  color    : #db9922;
+}
+
+.notice-hide {
+  display : none;
+}
+
+.welcome {
+  background-image  : url("img/welcome.svg");
+  background-repeat : repeat;
+  background-size   : cover;
+}
+
+.welcome h1 {
+  color : #737373;
+}
+
+.functions-icons img{
+  height : 3em;
+}
+.functions-icons h6{
+  color: #bababa;
+}

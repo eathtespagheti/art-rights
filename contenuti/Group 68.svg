@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5667 717 348 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bababa;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 12px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-2 {
+        fill: #95989a;
+      }
+    </style>
+  </defs>
+  <g id="Group_68" data-name="Group 68" transform="translate(5052 -194)">
+    <text id="HELP" class="cls-1" transform="translate(615 924)"><tspan x="0" y="0">HELP</tspan></text>
+    <text id="FAQs" class="cls-2" transform="translate(669 924)"><tspan x="0" y="0">FAQs</tspan></text>
+    <text id="ABOUT" class="cls-2" transform="translate(724 924)"><tspan x="0" y="0">ABOUT</tspan></text>
+    <text id="CONTACT" class="cls-2" transform="translate(789 924)"><tspan x="0" y="0">CONTACT</tspan></text>
+    <text id="TERMS_PRIVACY" data-name="TERMS/PRIVACY" class="cls-2" transform="translate(873 924)"><tspan x="0" y="0">TERMS/PRIVACY</tspan></text>
+  </g>
+</svg>
